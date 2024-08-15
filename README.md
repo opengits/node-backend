@@ -12,6 +12,11 @@ This service is the backend of the My-Account application. It handles API reques
 - **TypeScript**
 - **PostgreSQL**
 - **Shared ORM Library**
+  
+  ```bash
+   git clone  https://github.com/opengits/node-sharedorm.git 
+   ```
+
 
 ### Installation
 
