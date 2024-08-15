@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+      "target": "ES2020",
+      "module": "commonjs",
+      "strict": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "emitDecoratorMetadata": true,  // Required for metadata reflection
+      "experimentalDecorators": true,  // Required for using decorators
+      
+      "forceConsistentCasingInFileNames": true,
+      "outDir": "./dist",
+      "baseUrl": "./",
+      "paths": {
+        "shared-orm-library/*": ["node_modules/shared-orm-library/dist/*"]
+      }
+     
+    },
+    "include": ["src/**/*.ts"],
+    "exclude": ["node_modules"]
+  }
+  
