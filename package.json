@@ -13,7 +13,7 @@
         "@nestjs/core": "^10.0.0",
         "@nestjs/platform-express": "^10.0.0",
         "pg": "^8.7.1",
-        "shared-orm-library": "file:../shared-orm-library",
+        "shared-orm-library": "file:../node-sharedorm",
         "typeorm": "^0.3.11"
     },
     "devDependencies": {
